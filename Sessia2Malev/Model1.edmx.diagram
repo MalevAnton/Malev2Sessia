@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="fd56831e10ae4c19ab5665fae0df50f7" Name="Diagram1">
+        <EntityTypeShape EntityType="CRM14Model.BuildingType" Width="1.5" PointX="8.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.ConnectedService" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Contract" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.ContractType" Width="1.5" PointX="1.5" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.CRM" Width="1.5" PointX="6" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Equipment" Width="1.5" PointX="8" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.EquipmentType" Width="1.5" PointX="5.75" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Event" Width="1.5" PointX="8.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.EventNew" Width="1.5" PointX="8" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.EventRole" Width="1.5" PointX="11" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Gender" Width="1.5" PointX="1.5" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.ProblemType" Width="1.5" PointX="3.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Raion" Width="1.5" PointX="11" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.ReasonForTermination" Width="1.5" PointX="1.5" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.ResidentalAddress" Width="1.5" PointX="13.25" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Role" Width="1.5" PointX="5.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Service" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Sotrudnik" Width="1.5" PointX="8" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.StatusService" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Street" Width="1.5" PointX="11" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.Subscriber" Width="1.5" PointX="3.75" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.sysdiagrams" Width="1.5" PointX="2.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.TypeOfService" Width="1.5" PointX="3.75" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.TypeService" Width="1.5" PointX="3.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.User" Width="1.5" PointX="8" PointY="20.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CRM14Model.InstallationEquipment" Width="1.5" PointX="10.25" PointY="18.5" IsExpanded="true" />
+        <AssociationConnector Association="CRM14Model.FK_Raion_BuildingType" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_ConnectedService_Contract" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_ConnectedService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_Contract_ContractType" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_Contract_ReasonForTermination" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_CRM_ProblemType" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_CRM_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_CRM_StatusService" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_CRM_Subscriber" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_CRM_TypeOfService" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_CRM_TypeService" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_Equipment_EquipmentType" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_InstallationEquipment_Equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_EventRole_Enent" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_EventNew_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_EventRole_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_Subscriber_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_ResidentalAddress_Raion" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_ResidentalAddress_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_Sotrudnik_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_User_Role" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_InstallationEquipment_Sotrudnik" ManuallyRouted="false" />
+        <AssociationConnector Association="CRM14Model.FK_InstallationEquipment_Subscriber" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
